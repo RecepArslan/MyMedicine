@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        tools:context=".HomePageFragment"
+        android:layout_height="match_parent"
+        android:background="#880000"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:background="#dddddd"
+            android:layout_gravity="center"
+            android:id="@+id/textviews"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            android:text="HOME_FRAGMENT" />
+
+    </FrameLayout>
+</layout>
